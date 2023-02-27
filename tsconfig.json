@@ -1,0 +1,39 @@
+{
+  "extends": "../../tsconfig.root.json",
+  "references": [
+    {
+      "path": "../fungible-entangler"
+    },
+    {
+      "path": "../marketplace-sdk"
+    },
+    {
+      "path": "../react"
+    },
+    {
+      "path": "../spl-token-bonding"
+    },
+    {
+      "path": "../spl-token-collective"
+    },
+    {
+      "path": "../spl-utils"
+    },
+    {
+      "path": "./tsconfig.cjs.json"
+    },
+    {
+      "path": "./tsconfig.esm.json"
+    }
+  ],
+  "compilerOptions": {
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "jsx": "preserve"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
